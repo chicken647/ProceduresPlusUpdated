@@ -1,1 +1,0 @@
-Minecraft.getInstance().player.getInventory().selected

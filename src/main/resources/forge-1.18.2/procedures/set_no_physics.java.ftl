@@ -1,1 +1,0 @@
-${input$entity}.noPhysics = ${field$doiset};
