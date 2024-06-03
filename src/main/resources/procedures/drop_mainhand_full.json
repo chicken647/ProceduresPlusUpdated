@@ -1,0 +1,20 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "entity_player",
+      "check": "Entity"
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 175,
+  "mcreator": {
+    "toolbox_id": "proceduresplus",
+    "toolbox_init": [
+      "<value name=\"entity_player\"><block type=\"entity_from_deps\"></block></value>"
+    ],
+    "inputs": ["entity_player"]
+  }
+}

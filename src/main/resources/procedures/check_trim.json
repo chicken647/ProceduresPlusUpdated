@@ -1,0 +1,47 @@
+{
+  "args0": [
+    {
+      "type": "field_dropdown",
+      "name": "material",
+      "options": [
+        ["Iron", "minecraft:iron"],
+        ["Gold", "minecraft:gold"],
+        ["Lapis", "minecraft:lapis"],
+        ["Diamond", "minecraft:diamond"],
+        ["Netherite", "minecraft:netherite"],
+        ["Redstone", "minecraft:redstone"],
+        ["Copper", "minecraft:copper"],
+        ["Quartz", "minecraft:quartz"],
+        ["Amethyst", "minecraft:amethyst"],
+        ["Emerald", "minecraft:emerald"],
+        ["NULL", "null"]
+      ]
+    },
+    {
+      "type": "field_dropdown",
+      "name": "armor",
+      "options": [
+        ["Helmet", "103"],
+        ["Chestplate", "102"],
+        ["Leggings", "101"],
+        ["Boots", "100"]
+      ]
+    },
+    {
+      "type": "input_value",
+      "name": "entity",
+      "check": "Entity"
+    }
+  ],
+  "inputsInline": true,
+  "output": "Boolean",
+  "colour": "%{BKY_LOGIC_HUE}",
+  "mcreator": {
+    "toolbox_id": "proceduresplus",
+    "toolbox_init": [
+      "<value name=\"entity\"><block type=\"entity_from_deps\"></block></value>"
+    ],
+    "inputs": ["entity"],
+    "fields": ["armor", "material"]
+  }
+}

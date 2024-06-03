@@ -1,0 +1,54 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "radius_xz",
+      "check": "Number"
+    },
+    {
+      "type": "input_value",
+      "name": "radius_y",
+      "check": "Number"
+    },
+    {
+      "type": "input_statement",
+      "name": "doinshape"
+    },
+    {
+      "type": "input_value",
+      "name": "_placeholderX",
+      "check": "Number"
+    },
+    {
+      "type": "input_value",
+      "name": "_placeholderY",
+      "check": "Number"
+    },
+    {
+      "type": "input_value",
+      "name": "_placeholderZ",
+      "check": "Number"
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": "#447BC3",
+  "mcreator": {
+    "toolbox_id": "proceduresplusshapes",
+    "toolbox_init": [
+      "<value name=\"radius_xz\"><block type=\"math_number\"><field name=\"NUM\">10</field></block></value>",
+      "<value name=\"radius_y\"><block type=\"math_number\"><field name=\"NUM\">10</field></block></value>",
+      "<value name=\"_placeholderX\"><block deletable=\"false\" movable=\"false\" enabled=\"false\" type=\"shape_x\"></block></value>",
+      "<value name=\"_placeholderY\"><block deletable=\"false\" movable=\"false\" enabled=\"false\" type=\"shape_y\"></block></value>",
+      "<value name=\"_placeholderZ\"><block deletable=\"false\" movable=\"false\" enabled=\"false\" type=\"shape_z\"></block></value>"
+    ],
+    "inputs": ["radius_xz", "radius_y"],
+    "statements": [
+      {
+        "name": "doinshape",
+        "provides": []
+      }
+    ]
+  }
+}

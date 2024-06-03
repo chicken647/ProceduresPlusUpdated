@@ -1,0 +1,21 @@
+{
+  "args0": [],
+  "inputsInline": true,
+  "output": "Number",
+  "colour": "%{BKY_MATH_HUE}",
+  "mcreator": {
+    "toolbox_id": "procedurespluscomp",
+    "toolbox_init": [],
+    "inputs": [],
+    "dependencies": [
+      {
+        "name": "world",
+        "type": "world"
+      },
+      {
+        "name": "y",
+        "type": "number"
+      }
+    ]
+  }
+}

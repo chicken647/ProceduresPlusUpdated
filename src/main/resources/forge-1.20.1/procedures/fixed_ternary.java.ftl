@@ -1,0 +1,1 @@
+${input$cond} ? ${input$then} : ${input$else}

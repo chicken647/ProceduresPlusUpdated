@@ -1,0 +1,25 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "texturetochangereverse",
+      "check": "String"
+    }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": "#4a0a29",
+  "mcreator": {
+    "toolbox_id": "proceduresplus",
+    "toolbox_init": [
+      "<value name=\"texturetochangereverse\"><block type=\"text\"><field name=\"TEXT\">minecraft:textures/LOCATION/NAME.png</field></block></value>"
+    ],
+    "inputs": ["texturetochangereverse"],
+    "dependencies": [
+      {
+        "name": "world",
+        "type": "world"
+      }
+    ]
+  }
+}

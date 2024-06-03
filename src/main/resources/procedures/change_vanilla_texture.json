@@ -1,0 +1,32 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "texturetochange",
+      "check": "String"
+    },
+    {
+      "type": "input_value",
+      "name": "newtexture",
+      "check": "String"
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": "#4a0a29",
+  "mcreator": {
+    "toolbox_id": "proceduresplus",
+    "toolbox_init": [
+      "<value name=\"texturetochange\"><block type=\"text\"><field name=\"TEXT\">minecraft:textures/LOCATION/NAME.png</field></block></value>",
+      "<value name=\"newtexture\"><block type=\"text\"><field name=\"TEXT\">MOD_ID:textures/LOCATION/NAME.png</field></block></value>"
+    ],
+    "inputs": ["texturetochange", "newtexture"],
+    "dependencies": [
+      {
+        "name": "world",
+        "type": "world"
+      }
+    ]
+  }
+}

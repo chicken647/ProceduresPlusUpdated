@@ -1,0 +1,24 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "cond",
+      "check": "Boolean"
+    },
+    {
+      "type": "input_value",
+      "name": "then"
+    },
+    {
+      "type": "input_value",
+      "name": "else"
+    }
+  ],
+  "inputsInline": true,
+  "output": "",
+  "colour": "#CE3D3D",
+  "mcreator": {
+    "toolbox_id": "proceduresplus",
+    "inputs": ["cond", "then", "else"]
+  }
+}

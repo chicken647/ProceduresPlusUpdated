@@ -1,0 +1,106 @@
+{
+  "args0": [
+    {
+      "type": "field_dropdown",
+      "name": "variable_type",
+      "options": [
+        ["byte", "byte"],
+        ["short", "short"],
+        ["int", "int"],
+        ["long", "long"],
+        ["float", "float"],
+        ["double", "double"]
+      ]
+    },
+    {
+      "type": "input_statement",
+      "name": "dofor"
+    },
+    {
+      "type": "field_dropdown",
+      "name": "sign",
+      "options": [
+        ["<=", "<="],
+        [">=", ">="],
+        ["<", "<"],
+        [">", ">"]
+      ]
+    },
+    {
+      "type": "field_dropdown",
+      "name": "iteration",
+      "options": [
+        ["++", "++"],
+        ["- -", "--"]
+      ]
+    },
+    {
+      "type": "field_image",
+      "src": "https://i.imgur.com/ZNURlxx.png",
+      "width": 6,
+      "height": 21,
+      "alt": ";"
+    },
+    {
+      "type": "field_image",
+      "src": "https://i.imgur.com/ZNURlxx.png",
+      "width": 6,
+      "height": 21,
+      "alt": ";"
+    },
+    {
+      "type": "input_value",
+      "name": "equal_1",
+      "check": "Number"
+    },
+    {
+      "type": "input_value",
+      "name": "equal_2",
+      "check": "Number"
+    },
+    {
+      "type": "field_input",
+      "name": "var_name1",
+      "text": ""
+    },
+    {
+      "type": "field_input",
+      "name": "var_name2",
+      "text": ""
+    },
+    {
+      "type": "field_input",
+      "name": "var_name3",
+      "text": ""
+    },
+    {
+      "type": "input_dummy",
+      "name": "newline"
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": "%{BKY_LOOPS_HUE}",
+  "mcreator": {
+    "toolbox_id": "proceduresplus",
+    "toolbox_init": [
+      "<value name=\"equal_1\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value>",
+      "<value name=\"equal_2\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value>"
+    ],
+    "inputs": ["equal_1", "equal_2"],
+    "fields": [
+      "variable_type",
+      "sign",
+      "iteration",
+      "var_name1",
+      "var_name2",
+      "var_name3"
+    ],
+    "statements": [
+      {
+        "name": "dofor"
+      }
+    ]
+  }
+}

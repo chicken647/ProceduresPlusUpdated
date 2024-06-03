@@ -1,0 +1,1 @@
+GLFW.glfwGetKeyName(${JavaModName}KeyMappings.${field$keybindname}.getKey().getValue(), GLFW.glfwGetKeyScancode(${JavaModName}KeyMappings.${field$keybindname}.getKey().getValue()))
